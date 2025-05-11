@@ -1,0 +1,34 @@
+class BMW():
+    def model(self):
+        print("A BMW model is BMW M5")
+
+
+    def color(self):
+        print("A BMW color is grey")
+
+
+    def max_speed(self):
+        print("The Maximum speed of BMW is 190mph")
+
+
+
+class Ferrari():
+    def model(self):
+        print("A Ferrari model is Ferrrari F8 Tributo")
+      
+
+    def color(self):
+        print("A Ferrari color is red")
+
+    def max_speed(self):
+        print("The Maximum speed of Ferrari is 211mph")
+
+
+obj_bmw = BMW()
+obj_ferrari = Ferrari()
+
+
+for car in (obj_bmw, obj_ferrari):
+    car.model()
+    car.color()
+    car.max_speed()
